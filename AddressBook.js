@@ -41,3 +41,8 @@ class Address {
         }
     }
 }
+let addressBook = []  
+//function to store addressbook to array
+function addAddress(address){
+    addressBook.push(address);
+}
