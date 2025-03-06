@@ -73,4 +73,4 @@ function deleteAddress(name) {
 // Function to find the number of contacts
 function findNumberOfAddress() {
     return addressBook.reduce((count) => count + 1, 0);
-}
+};
